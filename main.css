@@ -1,0 +1,110 @@
+/* 
+Created with passion by Corné Adema / 0xcorne
+GitHub: https://github.com/0xcorne
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e2d5e6;
+    background-image: linear-gradient(315deg, #e2d5e6 0%, #e1d4e6 74%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.box {
+    height: 360px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 0rem;
+}
+
+#title {
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+label {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sub {
+    margin-top: 1rem;
+    background-color: #e2d5e6;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    padding: 0.5rem 0.5rem;
+}
+
+#sub:hover,
+#sub:active {
+    cursor: pointer;
+}
+
+#eigball {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+#shake {
+    margin-top: 1rem;
+    background-color: #e2d5e6;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    padding: 0.5rem 0.5rem;
+}
+
+#shake:hover,
+#shake:active {
+    cursor: pointer;
+}
+
+
+#sitetitle {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 667px) {
+    .box {
+        height: 400px;
+        width: 600px;
+        margin-top: 5rem;
+    }
+
+    #logo {
+        width: 200px;
+        margin-top: 2rem;
+    }
+
+    #title {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+}
